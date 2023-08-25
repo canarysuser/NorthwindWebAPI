@@ -11,8 +11,16 @@ class App extends React.Component {
     }
     click() {
        // if (window) {
-        window.alert('Button clicked');
-        window.document.forms[0].submit();
+        //window.alert('Button clicked');
+        //window.document.forms[0].submit();
+        if (window) {
+            var div = window.document.getElementById("aspNetPanel");
+            div.querySelector("input[id='Id']").value = this.state.Id;
+            div.querySelector("input[id='Name']").value = this.state.Name;
+            var name = div.querySelector("input[id='btn1']").name;
+            console.log("Button", name)
+            window.__doPostBack(name, '');
+        }
         //}
     }
     render() { 

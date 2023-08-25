@@ -84,8 +84,8 @@
             </footer>
         </div>
     </form>
-     <asp:PlaceHolder runat="server">
+     <%--<asp:PlaceHolder runat="server">
          <%:Scripts.Render("~/bundles/react") %>
-     </asp:PlaceHolder>
+     </asp:PlaceHolder>--%>
 </body>
 </html>

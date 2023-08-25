@@ -34,9 +34,9 @@ namespace WebFormsReact
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                             "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/react").Include(
-                "~/Scripts/Components/App.jsx"
-                ));
+            //bundles.Add(new ScriptBundle("~/bundles/react").Include(
+            //    "~/Scripts/Components/App.jsx"
+            //    ));
 
         }
     }

@@ -10,9 +10,8 @@
 
     <div class="row">
        <div id="root"></div>
-         <script type="text/babel">
-          
-         </script>
+         
     </div>
     <script defer src="Scripts/Components/App.jsx" type="text/babel"></script>
+    
 </asp:Content>

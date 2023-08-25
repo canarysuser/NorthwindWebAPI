@@ -25,6 +25,7 @@ namespace WebFormsReact
 			//	.AddScriptWithoutTransform("~/Scripts/bundle.server.js")
 
 			ReactSiteConfiguration.Configuration
+				
 				.AddScript("~/ReactScripts/App.jsx");
 		}
 	}

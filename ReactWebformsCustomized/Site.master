@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" ClientIDMode="Static" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -20,7 +20,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/grommet/2.33.1/grommet.min.js" integrity="sha512-HwlgnnrE8TIA0hwZUfJWDizzTlWgRSwWLaQrjIpbk5/L1tBentiJK7w/SfcBHcTju49Fd128XPLoktnu5ymncQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-    
 </head>
 <body>
     <form runat="server">
@@ -88,8 +87,5 @@
             </footer>
         </div>
     </form>
-     <%--<asp:PlaceHolder runat="server">
-         <%:Scripts.Render("~/bundles/react") %>
-     </asp:PlaceHolder>--%>
 </body>
 </html>

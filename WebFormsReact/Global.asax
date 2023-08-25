@@ -14,10 +14,12 @@
 
         JsEngineSwitcher.Current.EngineFactories.AddV8();
         JsEngineSwitcher.Current.DefaultEngineName = V8JsEngine.EngineName;
-
+        
         //Server Side Rendering 
         React.ReactSiteConfiguration.Configuration
-            .AddScript("~/ReactScripts/App.jsx");
+            .AddScript("~/ReactScripts/App.jsx")
+            .AddScript("~/ReactScripts/GrommetApp.jsx")
+            ;
 
 
 

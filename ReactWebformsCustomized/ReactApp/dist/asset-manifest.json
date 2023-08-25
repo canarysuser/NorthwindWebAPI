@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/ReactApp/dist/main.js",
+    "runtime.js": "/ReactApp/dist/runtime.js",
+    "vendor.js": "/ReactApp/dist/vendor.js"
+  },
+  "entrypoints": [
+    "/ReactApp/dist/main.js",
+    "/ReactApp/dist/runtime.js",
+    "/ReactApp/dist/vendor.js"
+  ]
+}

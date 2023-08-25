@@ -11,7 +11,8 @@ class App extends React.Component {
     }
     click() {
        // if (window) {
-            window.alert('Button clicked');
+        window.alert('Button clicked');
+        window.document.forms[0].submit();
         //}
     }
     render() { 
@@ -24,7 +25,7 @@ class App extends React.Component {
                     <p> {this.state.Id}</p>
                     <p> {this.state.Name}</p>
                 </div>
-                <form>
+               {/* <form id="f1">*/}
                     <label htmlFor="Id">Id</label>
                     <input type="text" name="Id" id="Id"
                         value={this.state.Id}
@@ -35,7 +36,7 @@ class App extends React.Component {
                         value={this.state.Name}
                         onChange={this.handleChange} />
                     <button type="button" onClick={this.click}> Submit</button>
-                </form>
+                {/*</form>*/}
             </div>
         )
     }
